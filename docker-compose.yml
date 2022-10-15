@@ -21,6 +21,6 @@ services:
       - "82:80"
       - "5000:80"          
 
-    volumes:                                        # Specified Volume If Any Changes Done In File Then It Will Automatic Reflect 
-      - .:/var/www/html
+    # volumes:                                        # Specified Volume If Any Changes Done In File Then It Will Automatic Reflect 
+    #   - .:/var/www/html
     
