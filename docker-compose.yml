@@ -4,7 +4,7 @@ services:
     build: 
       context: .
       labels:
-        - project = "The Royal Touch"               # Addinng MetaData to Image
+        - project = "TheRoyalTouch"               # Addinng MetaData to Image
     image: project_1:1.0.0.0                        # Custom Image Name
     container_name: project_1                       # Custom Container Name
     ports:                                          # Port Mapping
